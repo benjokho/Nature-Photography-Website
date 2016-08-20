@@ -1,0 +1,436 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ 
+ *  NATURE PHOTOGRAPHY
+ * */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html {
+	font-family: Georgia;
+}
+
+.slides {
+	/*margin-top: -3em;*/
+	background-image: url(../img/goose.jpg);
+	background-size: 100vw;
+	background-repeat: no-repeat;
+	background-color: white;
+	padding-top: 20vh;
+	color: white;
+	height: 100vh;
+	text-align: center;
+	font-size: 2em;
+}
+
+.slides .slide-title {
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	padding: 0.5rem;
+}
+
+.slides .slide-paragraph {
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.slides a {
+	border-style: solid;
+	border-color: white;
+	border-width: 0.09em;
+	border-radius: 1.5em;
+	text-decoration-style: none;
+	text-decoration:none;
+	color: white;	
+	padding:  1vh 1vw;
+	background-color: rgba(0,0,0,0.5);
+	transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+
+.points {
+	float: left;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: white;
+	height: 25vw;
+	width: 25vw;
+}
+
+#title-tab {
+		font-size: 2em;
+		border-left: none !important;
+}
+
+.points-picture:after {
+    content:'Nature Photography';
+    color:#FFFFFF;
+    width:100%; height:100%
+    background:rgba(0,0,0,0.6);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+	
+.points-picture:hover:after {
+    opacity:1;
+}
+
+.navbar {
+	font-family: helvetica;
+	list-style-type: none;
+	text-align: right;
+}
+
+.navbar li {
+	display: inline-block;
+	margin-right: 1vw;
+	padding-left: 1vw;
+	
+}
+
+.navbar a {
+	text-decoration: none;
+	color: black;
+	width: 1vw;
+	height: 1em;
+	font-size: 1.2em;
+	transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+#about-tab:hover {
+	color: red;
+	transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+
+#services-tab:hover {
+	color: blue;
+	transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+
+#careers-tab:hover {
+	color: orange;
+	transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+
+#contact-tab:hover {
+	color: yellow;
+	transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+
+.points-intro {
+	text-align: center;
+	font-style: italic;
+	font-size: 1.6em;
+	font-family: helvetica;
+	height: 20vh;
+	vertical-align: bottom;
+	padding-top: 5vh;
+	margin-bottom: -5vh;
+	background-color: rgba(0,0,0,0.1);
+}
+
+.row {
+  display: table;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.item {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.points-description {
+	text-align: center;
+	font-size: 3em;
+	font-style: italic;
+}
+
+#purple {
+	background-image: url(../img/purple.jpg);
+}
+
+#boat {
+	background-image: url(../img/boat.jpg);
+}
+
+#butterfly {
+	background-image: url(../img/butterfly.jpg);
+}
+
+#dew {
+	background-image: url(../img/dew.jpg);
+}
+
+#social-icons {
+	text-align: center;
+}
+
+.copyright {
+	margin-right: 1vw;
+}
+
+#social-icons li{
+	text-decoration:none;
+	list-style-type:none;
+	display: inline-block;	
+}
+
+#social-icons img{
+	width: 3em;
+	transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+#social-icons img:hover{
+	width: 5em;
+	transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+
+    }
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
