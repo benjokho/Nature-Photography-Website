@@ -86,7 +86,7 @@ html {
 	background-color: rgba(0,0,0,0.5);
 }
 
-.slides a {
+.slides .button {
 	border-style: solid;
 	border-color: white;
 	border-width: 0.09em;
@@ -98,6 +98,13 @@ html {
 	background-color: rgba(0,0,0,0.5);
 	transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
+}
+
+.slides .button:hover {
+
+	background-color: rgba(0,0,0,1);
+	transition: all 0.5s ease;
+    	-webkit-transition: all 0.5s ease;
 }
 
 .points {
